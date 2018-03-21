@@ -26,16 +26,13 @@ body{
     	}
    li a{
  	display: flex;
-	font-family: 'Tangerine';
+	font-family:serif;
              text-decoration:none;
               color: white;
-              font-size: 1.4rem;
+              font-size: 1.2rem;
               width: 10vw;
           }
-         li a:hover{
-            color:rgb(2,255,10);
-            font-size: 1.9rem
-          }
+         
     
           @media only screen  and  (max-width: 350px){
         	.header{
