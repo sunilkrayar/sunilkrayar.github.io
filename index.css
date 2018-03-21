@@ -165,8 +165,8 @@ img:hover{
         height: 1vh;
        }
        .footer1{
-       	   height: 60vh;
-           padding-top:10vw;
+       	   height: 70vh;
+           padding-top:0vw;
        }
               .image{
               	display: flex;
