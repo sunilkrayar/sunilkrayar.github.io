@@ -1,0 +1,156 @@
+:root{
+  font-size: 25px;
+} 
+body{
+  margin:0vw;
+ 
+  
+}
+.header{
+  display: flex;
+  margin:0vw;
+  padding:0vw;
+  background-color: rgba(25,25,25,25);
+  position: fixed;
+   width: 100vw;
+ }
+ 
+    ul{
+      display: flex;
+      height: 10vh;
+      justify-content:space-around;
+      list-style-type: none;
+     
+      }
+   li a{
+  display: flex;
+  font-family:serif;
+             text-decoration:none;
+              color: white;
+              font-size: 1.2rem;
+              width: 10vw;
+          }
+         
+    
+          @media only screen  and  (max-width: 350px){
+          .header{
+                    display: flex;
+
+          }
+          ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 30vh;
+             }
+            li a{
+              
+              font-size:0.5rem;
+            
+            }
+        }
+
+        @media only screen  and  (min-width:350px) and (max-width: 865px){
+          .header{
+                    display: flex;
+
+          }
+          ul{
+            display: flex;
+            justify-content: space-between;
+            width:60vw;
+            
+             }
+            li a{
+              
+              font-size:0.6rem;
+            }
+           
+        }
+       
+    
+ .footer1{
+  display: flex;
+ justify-content:center;
+  margin: 0vw;
+  background-color:rgb(40,40,40);
+  height:10vh;
+  width: 100vw;
+
+}
+
+
+  
+    .copy{
+        text-align: center;
+        color: rgb(250,250,250);
+        font-size: 0.5rem;
+        font-family: sans-serif;
+    }
+
+    
+    	.about{
+
+             display: flex;
+             align-items: center;
+             padding-bottom:0vw;
+             padding-top: 10vw;
+             height: 60vh;
+
+
+      }
+      a{
+         color: rgb(200,100,0);
+         font-size: 1rem;
+         font-weight: 500;
+         font-style: bold;
+         font-family:sans-serif;
+         padding-left: 2vw;
+      }
+    .images{
+        display: flex;
+        align-content: flex-end;
+    
+        padding-bottom:0vw; 
+        padding-left: 5vw;
+    }
+
+        @media only screen  and  (max-width: 340px){
+         
+        .about a{
+          display: flex;
+           font-size: 0.5rem;
+           padding-top:60vw;
+
+         }
+         img{
+
+                  width:50vw;
+         }
+          .copy{
+            font-size: 0.3rem;
+          }
+
+     }
+
+
+      @media only screen  and  (min-width: 340px) and (max-width: 500px){
+         
+        .about a{
+          display: flex;
+           font-size: 0.6rem;
+           padding-top:20vw;
+         
+         }
+         img{
+
+                  width:40vw;
+                  padding-top:0vw;
+                  margin-top:20vw;
+         }
+          .copy{
+
+            font-size: 0.4rem;
+          }
+
+     }
