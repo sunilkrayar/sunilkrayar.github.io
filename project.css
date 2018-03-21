@@ -8,8 +8,8 @@ body{
 }
 .header{
 	display: flex;
-	margin: 0vw;
-	padding: 1vw;
+	margin:2vw;
+	padding:2vw;
 	background-color: rgba(25,25,25,25);
   position: fixed;
  
