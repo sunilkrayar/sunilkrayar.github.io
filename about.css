@@ -14,10 +14,7 @@ body{
 	}
  
     ul{
-    	display: flex;
-    	height: 10vh;
-    	justify-content:space-between;
-    	list-style-type: none;
+    	
      
     	}
    li a{
