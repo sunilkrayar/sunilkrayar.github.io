@@ -100,7 +100,7 @@ body{
   margin: 0vw;
   background-color:rgb(40,40,40);
   height:70vh;
-  width: 100vw;
+  width: 120vw;
 
 }
 
@@ -157,7 +157,7 @@ img:hover{
              .info{
               	display: flex;
               	align-content: flex-end;
-              	font-size:1rem;
+              	font-size:0.6rem;
               	margin: 0vw;
            margin-top:100vw;
          padding-left: 10vw;
