@@ -2,17 +2,14 @@
 	font-size: 25px;
 }	
 body{
-	margin:0vw;
- 
-	
+	margin:0vw;	
 }
 .header{
 	display: flex;
-	margin: 0vw;
-	padding: 1vw;
+	margin:0vw;
+	padding:1vw;
 	background-color: rgba(25,25,25,25);
   position: fixed;
- 
    width: 100vw;
  
 	}
@@ -20,7 +17,7 @@ body{
     ul{
     	display: flex;
     	height: 10vh;
-    	justify-content:space-around;
+    	justify-content:space-between;
     	list-style-type: none;
      
     	}
