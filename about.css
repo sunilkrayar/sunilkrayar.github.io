@@ -10,11 +10,11 @@ body{
   display: flex;
   margin: 0vw;
   padding: 1vw;
-  background-color: rgba(25,25,25,255);
+  background-color: rgba(25,25,25,25);
   position: fixed;
   
    width: 100vw;
-   opacity: 0.8;
+   
   }
  
     ul{
@@ -26,16 +26,13 @@ body{
       }
    li a{
   display: flex;
-  font-family: 'Tangerine';
+  font-family:serif;
              text-decoration:none;
               color: white;
-              font-size: 1.4rem;
+              font-size: 1.2rem;
               width: 10vw;
           }
-         li a:hover{
-            color:rgb(2,255,10);
-            font-size: 1.9rem
-          }
+        
 
 
           @media only screen  and  (max-width: 350px){
@@ -51,7 +48,7 @@ body{
     	       }
     	      li a{
     	      	
-    	      	font-size:0.8rem;
+    	      	font-size:0.5rem;
     	      	color:yellow;
 
     	      }
@@ -70,11 +67,10 @@ body{
     	       }
     	      li a{
     	      	
-    	      	font-size:1rem;
+    	      	font-size:0.6rem;
     	      }
-    	     li a:hover{
-    	      	background-color:red;
-    	      }
+    	     
+    	      
         }
        
 
