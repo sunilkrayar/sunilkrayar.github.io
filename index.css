@@ -157,7 +157,7 @@ img:hover{
              .info{
               	display: flex;
               	align-content: flex-end;
-              	font-size:0.6rem;
+              	font-size:1.2rem;
               	margin: 0vw;
            margin-top:100vw;
          padding-left: 10vw;
@@ -168,7 +168,8 @@ img:hover{
        	display: flex;
        	   height: 70vh;
            padding-top:0vw;
-           width: 100vw;
+           padding-left: 20vw;
+           width: 120vw;
        }
               .image{
               	display: flex;
