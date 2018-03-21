@@ -100,7 +100,7 @@ body{
   margin: 0vw;
   background-color:rgb(40,40,40);
   height:70vh;
-  width: 120vw;
+  width: 100vw;
 
 }
 
@@ -146,7 +146,7 @@ img:hover{
     	padding: 10vw;
     	 background-color: rgb(250,250,255);
     	 height:40vh;
-    	 width:80vw;
+    	 width:100vw;
        padding-top:20vw;
     	 font-size:1rem;
        color: orange;
@@ -165,6 +165,7 @@ img:hover{
         height: 1vh;
        }
        .footer1{
+       	display: flex;
        	   height: 70vh;
            padding-top:0vw;
        }
