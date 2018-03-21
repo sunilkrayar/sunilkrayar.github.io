@@ -11,13 +11,12 @@ body{
 	background-color: rgba(25,25,25,25);
   position: fixed;
    width: 100vw;
- 
 	}
  
     ul{
     	display: flex;
     	height: 10vh;
-    	justify-content:flex-start;
+    	justify-content:space-between;
     	list-style-type: none;
      
     	}
