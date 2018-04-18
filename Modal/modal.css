@@ -1,0 +1,505 @@
+:root{
+	font-size: 16px;
+}
+
+body{
+	margin: 0;
+}
+
+.navbar{
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+  position: fixed;
+	justify-content:space-around;
+	background-color:  darkblue;
+	top: 0;
+	width:100vw;
+	height: 13vh;
+}
+.navbar a{
+	display: flex;
+	justify-content:space-around;
+	 text-transform: capitalize;
+	 text-decoration: none;
+	 font-size:1.5rem;
+	 color: white;
+	 margin-top:0.7vw;
+	 padding:0.9vw;
+	 opacity: 0.7;
+	 font-family:solid;
+}
+ .b{
+          width:3vw;
+          height:3vw;
+          box-shadow: 1px 2px 5px 1px yellow;
+          font-size: 2rem;
+          font-weight: bold;
+          background-color: darkblue;
+          color:yellow;
+}
+
+.download{
+
+          width:10vw;
+          height:3vw;
+          margin-right: 1.5vw;
+          box-shadow: 1px 2px 5px 1px darkblue;
+          font-size:1.4rem;
+          font-weight:bold;
+          color: blue;
+          border:2px solid red;
+          background-color: darkblue;
+          color:yellow;
+          font-family: sans-serif;
+}
+ a:hover{
+	opacity: 1;
+}
+
+.v41{
+  margin-left:6vw;
+}
+
+.test{
+  margin-top: 10vw;
+  margin-left: 1vw;
+  padding:0.3vw;
+  font-size:1.5rem;
+  width:90vw;
+  box-shadow: 1px 1px 50px 1px white;
+  border: 2px solid black;
+  border-radius:16px;
+
+}
+.search{
+	border: 1px solid red;
+	box-shadow: 3px 3px 4px 2px green;
+}
+
+
+
+.side{
+	display: flex;
+     color:green;
+     padding:3vw;
+     	display:none;
+	font-size: 1rem;
+	font-weight: 700;
+	font-family:serif;
+	padding-left: 2vw;
+    overflow-y: scroll;
+    width:10vw;
+    max-height: 60vh;
+    
+}
+#collapse{
+	font-size: 1rem;
+	color: black;
+	font-weight: bold;
+}
+#menu{
+	font-size:1.7rem;
+}
+
+.tfirst{
+  display: flex;
+  justify-content: flex-start;
+  font-weight:400;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+ 
+  
+}
+.col{
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: serif;
+  margin-bottom:0.1vw;
+  padding-bottom: 2vw;
+  margin-top: 1vw;
+
+}
+.tt1{
+  font-size: 1.2rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 5vw;
+  width: 50vw;
+  height: 20vh;
+}
+
+    .tsecond{
+       display: flex;
+       background-color: rgb(220 220 220);
+       width: 30vw;
+       height: 20vh;
+       margin-left: 3vw;
+       font-size: 1.2rem;
+       font-weight: 700;
+       box-shadow: 1px 2px 20px 1px rgb(230 230 230);
+    }
+
+.st{
+  font-size:3.5rem;
+  font-weight: bolder;
+  border: 4px   solid red;
+  margin-left:2vw;
+  margin-top:2vw;
+  width:12vw;
+  height:10vh;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 2px 10px 1px black;
+}
+.ads{
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+
+
+.tthree{
+  display: flex;
+       margin-left:1vw;
+       font-size: 1.2rem;
+       font-weight:400;
+       
+    }
+    .howit{
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: capitalize;
+      margin-left: 2vw;
+      margin-top: 2vw;
+    }
+    .tt2{
+  font-size: 1.2rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top:8vw;
+  width: 50vw;
+  height: 20vh;
+}
+
+.ex-modal{
+  display: flex;
+  justify-content: flex-start;
+  font-weight:400;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+  margin-bottom: 5vw;
+ 
+}
+.example{
+  font-size: 2rem;
+  margin-left: 2vw;
+  margin-top: 5vw;
+}
+ .tt3{
+  font-size: 1.2rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 10vw;
+  width: 50vw;
+  height:10vh;
+}
+.modal1{
+  display:none;
+  
+    
+    z-index: 1; 
+    padding-top:100px; 
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height:50vh; 
+    overflow: auto;
+
+
+}
+.modal-content{
+  position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@keyframes animatetop {
+    from {top:-200px; opacity:0.8}
+    to {top:0; opacity:1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 30px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+.btn1{
+  width: 20vw;
+  height: 8vh;
+  font-size: 1.5rem;
+  margin-left: 30vw;
+  background-color: blue;
+  margin-bottom: 2vw;
+ color: white;
+}
+.code{
+  display: flex;
+  width:95vw;
+  height: 40vh;
+  overflow: scroll;
+  border:0.5px solid black;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+  margin-top: 1vw;
+  color: blue;
+  box-shadow: 1px 1px 5px 1px red;
+}
+@media screen and (max-width:667px){
+
+         .navbar a{
+         	display: flex;
+         	flex-wrap: wrap;
+         	justify-content:space-around;
+         	font-size:0.9rem;
+         	opacity: 0.8;
+         
+         }
+           .b{
+           	display:none;
+           	
+           	font-size: 1.2rem;
+           	box-shadow: 1px 1px 1px 1px black;
+	           border: 0.1px solid black;
+           }
+
+a:hover{
+	opacity: 1;
+}
+.download{
+	display: none;
+}
+.v41{
+  margin-left:32vw;
+}
+       .test{
+       	display: flex;
+       	margin-top:0.1vw;
+	margin-left:0.1vw;
+       	padding:1vw;
+       	width: 97.5vw;
+       	font-size: 1rem;
+
+       	box-shadow: 1px 1px 10px 1px white;
+	border: 0.1px solid black;
+       }
+
+   #menu{
+   	font-size: 1rem;
+
+   }
+   .search{
+	border: 1px none;
+  border-radius: 20px;
+	box-shadow: 1px 0px 10px 2px green;
+}
+   .side{
+	display: flex;
+     color:gray;
+     padding:3vw;
+     	display:none;
+	font-size:0.8rem;
+	font-weight:bold;
+	font-family:serif;
+	padding-left:4vw;
+    overflow: scroll;
+    width:12vw;
+    max-height: 60vh
+
+}
+}
+   @media only screen  and  (min-width:666px) and (max-width:800px){
+  
+         .navbar a{
+         	display: flex;
+         	flex-wrap: wrap;
+         	justify-content:space-around;
+         	font-size:1.1rem;
+         	opacity: 0.8;
+         
+         }
+           .b{
+           	display:flex;
+           	
+           	font-size: 1.2rem;
+           	box-shadow: 1px 1px 10px 1px yellow;
+	           border: 0px solid black;
+           }
+
+a:hover{
+	opacity: 1;
+}
+.download{
+	display:none;
+}
+.v41{
+  margin-left:0vw;
+}
+       .test{
+       	display: flex;
+       	margin-top:0.1vw;
+	margin-left:0.1vw;
+       	padding:1vw;
+       	width:97.5vw;
+       	font-size: 1rem;
+
+       	box-shadow: 1px 1px 10px 1px white;
+	border: 0.1px solid black;
+       }
+   
+   .side{
+	display: flex;
+     color:gray;
+     padding:5vw;
+     	display:none;
+	font-size:1rem;
+	font-weight:bold;
+	font-family:serif;
+	padding-left:2vw;
+    overflow: scroll;
+    width:15vw;
+    max-height: 60vh
+
+}
+
+ }
+  
+  @media screen and (max-width:800px){
+
+              .second{
+                display: flex;
+                margin-top: 30vw;
+
+              }
+              .test{
+
+                   border:solid 1px black;
+                   border-radius: 5px;
+              }
+           .side{
+            font-size:0.8rem;
+            margin-left: 10vw;
+            width: 50vw;
+           }
+     
+            .tfirst{
+              display: flex;
+
+            }
+            .col{
+              font-size: 1.4rem;
+              margin-top: 0.1vw;
+            }
+            .tt1{
+              margin-bottom:4vw;
+              font-size:0.8rem;
+            }
+
+            .tsecond{
+              display: flex;
+              width:100vw;
+              height:30vh;
+              margin-left: 0.1vw;
+            }
+            .st{
+                 font-size:4.5rem;
+                 width: 48vw;
+                 height:18vh;
+                 margin-top:3vw;
+            }
+            .ads{
+              font-size:1rem;
+              margin-left: 2vw;
+              text-align: center;
+              margin-top: 10vw;
+            }
+
+            .tthree{
+              display: flex;
+            }
+            .howit{
+              font-size:1.4rem;
+              margin-top: 1vw;
+            }
+
+            .tt2{
+              font-size: 0.8rem;
+              margin-bottom:5vw;
+              width: 90vw;
+              height:45vh;
+            }
+                    .ex-modal{
+                      display: flex;
+                    }
+                  .example{
+                    font-size: 1.4rem;
+                    margin-top: 1vw;
+                  }
+                   .tt3{
+              font-size: 0.8rem;
+              margin-bottom:5vw;
+              width: 90vw;
+      
+            }
+            .btn1{
+              width: 99.5vw;
+              height: 8vh;
+              margin-left: 0.5vw;
+              color: white;
+            }
+            .code{
+            font-size:0.8rem;
+            margin-left: 0.1vw;
+            width: 100vw;
+           }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
