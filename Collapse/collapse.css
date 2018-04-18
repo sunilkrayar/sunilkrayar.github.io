@@ -1,0 +1,585 @@
+:root{
+	font-size: 16px;
+}
+
+body{
+	margin: 0;
+}
+
+.navbar{
+	display: flex;
+	flex-wrap: wrap;
+  position: fixed;
+	overflow: hidden;
+	justify-content:space-around;
+	background-color:  darkblue;
+	top: 0;
+	
+	width: 100vw;
+	height: 15vh;
+}
+.navbar a{
+	display: flex;
+	justify-content:space-around;
+	 text-transform: capitalize;
+	 text-decoration: none;
+	 font-size:1.5rem;
+	 color: white;
+	 margin-top:1.2vw;
+	 padding:0.9vw;
+	 opacity: 0.7;
+	 font-family:solid;
+}
+ .b{
+          width:3vw;
+          height:3vw;
+          box-shadow: 1px 2px 5px 1px yellow;
+          font-size: 2rem;
+          font-weight: bold;
+          background-color: darkblue;
+          color:yellow;
+}
+
+.download{
+
+          width:12vw;
+          height:3.5vw;
+          box-shadow: 1px 2px 5px 1px darkblue;
+          font-size:1.5rem;
+          font-weight:bold;
+          color: blue;
+          border:2px double orange;
+          margin-right:2.5vw;
+          background-color: darkblue;
+          color:yellow;
+          font-family: sans-serif;
+}
+ a:hover{
+	opacity: 1;
+}
+
+.v41{
+  margin-left:10vw;
+}
+
+.test{
+	margin-top: 10vw;
+	margin-left: 1vw;
+	padding:0.3vw;
+	font-size:1.5rem;
+	width:90vw;
+	box-shadow: 1px 1px 50px 1px white;
+	border: 2px solid black;
+  border-radius:16px;
+
+}
+.search{
+	border: 1px none;
+	box-shadow: 3px 3px 4px 2px green;
+}
+
+
+
+.sidebar{
+     color:black;
+     padding:3vw;
+     	display:none;
+	font-size: 1.2rem;
+	font-weight: 700;
+	font-family:serif;
+	padding-left: 2vw;
+    overflow-y:scroll;
+    width:10vw;
+    max-height: 60vh;
+    
+}
+#collapse{
+	font-size: 1.3rem;
+	color: red;
+	font-weight: bold;
+}
+#menu{
+	font-size:1.7rem;
+}
+
+.tfirst{
+  display: flex;
+  justify-content: flex-start;
+  font-weight:400;
+  font-size: 1.2rem;
+  margin-left:2vw;
+ 
+  
+}
+.col{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top:3vw;
+  padding-bottom:0vw;
+
+}
+.tt1{
+  font-size: 1.5rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 8vw;
+  width: 50vw;
+  height: 20vh;
+  justify-content: flex-start;
+}
+
+    .tsecond{
+       display: flex;
+       background-color: rgb(220 220 220);
+       width: 30vw;
+       height: 20vh;
+       margin-left: 5vw;
+       font-size: 1.2rem;
+       font-weight: 700;
+       box-shadow: 1px 2px 20px 1px rgb(230 230 230);
+    }
+
+.st{
+  font-size:3.5rem;
+  font-weight: bolder;
+  border: 4px   solid red;
+  margin-left:5vw;
+  margin-top:2vw;
+  width:5vw;
+  height:10vh;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 2px 10px 1px black;
+}
+.ads{
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+
+.tthree{
+  display: flex;
+  justify-content: flex-start;
+       margin-left:3vw;
+       font-size:0rem;
+       font-weight:400;
+       
+    }
+    .howit{
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: capitalize;
+      margin-left:2vw;
+      margin-top:3vw;
+    }
+.tt2{
+  font-size: 1.5rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 8vw;
+  width: 50vw;
+  height: 20vh;
+  justify-content: flex-start;
+}
+    .tfour{
+  display: flex;
+       margin-left:1vw;
+       font-size: 1.2rem;
+       font-weight:400;
+       
+    }
+     .example{
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: capitalize;
+      margin-left:2vw;
+      margin-top: 3vw;
+    }
+    .tt3{
+  font-size: 1.5rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 8vw;
+  width: 50vw;
+  height: 30vh;
+  justify-content: flex-start;
+}
+
+#ex1{
+  display: flex;
+  width: 14vw;
+  margin-left: 15vw;
+  background-color: blue;
+  height: 6vh;
+  color: white;
+  padding-left: 1.2vw;
+  border:0.2px solid black;
+  font-size: 1.5rem;
+  border-radius: 1px;
+  font-weight: bold;
+}
+
+
+
+.info{
+  display:none;
+  justify-content: center;
+  margin-left:15vw;
+  padding-top: 2vw;
+  font-size: 1rem;
+  margin-top:1vw;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 20px;
+
+  width:40vw;
+  height:16vh;
+  border:0.8px solid black;
+
+
+}
+
+.code{
+  display: flex;
+  width:95vw;
+  height: 40vh;
+  overflow: scroll;
+  border:0.5px solid black;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+  margin-top: 1vw;
+  color: blue;
+  box-shadow: 1px 1px 5px 1px red;
+}
+
+
+.tfive{
+  display: flex;
+       margin-left:1vw;
+       font-size: 1.2rem;
+       font-weight:400;
+       margin-top: 2vw;
+}
+.accor{
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: capitalize;
+      margin-left:2vw;
+      margin-top: 2vw;
+    }
+    .tt4{
+  font-size: 1.5rem;
+  border:1px none;
+  margin-right:12vw;
+  margin-top: 8vw;
+  width: 50vw;
+  height: 30vh;
+  justify-content: flex-start;
+}
+#ex2{
+  display: flex;
+  width: 96vw;
+  height: 10vh;
+  border:1px solid white;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  background-color:black;
+  margin-left:2vw;
+  b
+}
+#ex3{
+  display: flex;
+  width: 96vw;
+  height: 10vh;
+  border:1px solid black;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  background-color:black;
+  margin-left:2vw;
+}
+
+.note{
+       display: none;
+       width:96vw;
+       height: 60vh;
+       border:2px solid red;
+       font-size:1.2rem;
+       margin-left: 2vw;
+       color: rgb(25 20 20);
+
+}
+ .colo{
+  background-color: green;
+  border-top: 1vw;
+
+  transform: scale(1);
+
+ }
+
+
+@media screen and (max-width:667px){
+
+         .navbar a{
+         	display: flex;
+         	flex-wrap: wrap;
+         	justify-content:space-around;
+         	font-size:0.9rem;
+         	opacity: 0.8;
+         
+         }
+           .b{
+           	display:none;
+           	
+           	font-size: 1.2rem;
+           	box-shadow: 1px 1px 1px 1px black;
+	           border: 0.1px solid black;
+           }
+
+a:hover{
+	opacity: 1;
+}
+.download{
+	display: none;
+}
+.v41{
+  margin-left:32vw;
+}
+       .test{
+       	display: flex;
+       	margin-top:0.1vw;
+	margin-left:0.1vw;
+       	padding:1vw;
+       	width: 97.5vw;
+       	font-size: 1rem;
+
+       	box-shadow: 1px 1px 10px 1px white;
+	border: 0.1px solid black;
+       }
+
+   #menu{
+   	font-size: 1rem;
+
+   }
+   .search{
+	border: 1px solid red;
+	box-shadow: 1px 0px 10px 2px green;
+}
+   .side{
+	display: flex;
+     color:gray;
+     padding:3vw;
+     	display:none;
+	font-size:0.8rem;
+	font-weight:bold;
+	font-family:serif;
+	padding-left:4vw;
+    overflow: scroll;
+    width:12vw;
+    max-height: 60vh
+}
+}
+   @media only screen  and  (min-width:666px) and (max-width:800px){
+  
+         .navbar a{
+         	display: flex;
+         	flex-wrap: wrap;
+         	justify-content:space-around;
+         	font-size:1.1rem;
+         	opacity: 0.8;
+         
+         }
+           .b{
+           	display:flex;
+           	
+           	font-size: 1.2rem;
+           	box-shadow: 1px 1px 10px 1px yellow;
+	           border: 0px solid black;
+           }
+
+a:hover{
+	opacity: 1;
+}
+.download{
+	display:none;
+}
+.v41{
+  margin-left:0vw;
+}
+       .test{
+       	display: flex;
+       	margin-top:0.1vw;
+	margin-left:0.1vw;
+       	padding:1vw;
+       	width:97.5vw;
+       	font-size: 1rem;
+
+       	box-shadow: 1px 1px 10px 1px white;
+	border: 0.1px solid black;
+       }
+   
+   .side{
+	display: flex;
+     color:gray;
+     padding:5vw;
+     	display:none;
+	font-size:1rem;
+	font-weight:bold;
+	font-family:serif;
+	padding-left:2vw;
+    overflow: scroll;
+    width:15vw;
+    max-height: 60vh
+
+ }
+
+ }
+
+           @media screen and (max-width:800px){
+
+              .second{
+                display: flex;
+                margin-top: 30vw;
+
+              }
+              .test{
+
+                   border:solid 1px black;
+                   border-radius: 5px;
+              }
+           .sidebar{
+            font-size:0.8rem;
+            margin-left: 10vw;
+            width: 50vw;
+           }
+     
+            .tfirst{
+              display: flex;
+
+            }
+            .col{
+              font-size: 1.4rem;
+              margin-top: 1vw;
+            }
+            .tt1{
+              margin-bottom:2vw;
+              font-size:0.8rem;
+            }
+
+            .tsecond{
+              display: flex;
+              width:100vw;
+              height:30vh;
+              margin-left: 0.1vw;
+            }
+            .st{
+                 font-size:4.5rem;
+                 width: 25vw;
+                 height:18vh;
+                 margin-top:7vw;
+            }
+            .ads{
+              font-size:1rem;
+              margin-left: 2vw;
+              text-align: center;
+              margin-top: 10vw;
+            }
+            .tthree{
+              display: flex;
+            }
+            .howit{
+              font-size:1.4rem;
+              margin-top: 1vw;
+            }
+
+            .tt2{
+              font-size: 0.8rem;
+              margin-bottom:15vw;
+              width: 90vw;
+            }
+            .tfour{
+              display: flex;
+
+            }
+            .example{
+              font-size: 1.4rem;
+              margin-top: 1vw;
+            }
+            .tt3{
+              font-size: 0.8rem;
+              margin-bottom: 5vw;
+              width: 90vw;
+            }
+            .toggle{
+              display: flex;
+
+             }
+               #ex1{
+                font-size: 1.4rem;
+                width: 100vw;
+                margin-left: 0.1vw;
+                padding-left: 36vw;
+               }
+           .info{
+            font-size: 0.8rem;
+            width: 100vw;
+            margin-left: 01vw;
+            height: 20vh;
+           }
+           .code{
+            font-size:0.8rem;
+            margin-left: 0.1vw;
+            width: 100vw;
+           }
+           .tfive{
+            display: flex;
+
+           }
+        .accor{
+          font-size: 1.4rem;
+          margin-top: 1vw;
+        }
+
+        .tt4{
+          font-size: 0.8rem;
+          margin-bottom:0.1vw;
+        }
+        .toggle{
+          display: flex;
+        }
+        #ex2{
+          font-size: 1rem;
+          width: 100vw;
+          margin-left: 0.1vw;
+        }
+        #ex3{
+          font-size: 1rem;
+          width: 100vw;
+          margin-left: 0.1vw;
+        }
+        .note{
+          font-size: 0.8rem;
+          margin-left: 0.5vw;
+          height: 40vh;
+        }
+             }
+
+          
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
