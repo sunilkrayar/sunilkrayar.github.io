@@ -74,6 +74,7 @@ let getAllDetails = () => {
         	$('.loader').hide();
             
         },
+        timeout:2000
 
 
     });// end ajax call 
