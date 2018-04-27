@@ -30,7 +30,7 @@ let getAllDetails = () => {
         type: 'POSt',
         dataType: 'json',
         async: true,
-        url: ' http://www.omdbapi.com/?apikey=d5892be4&t=' + myFacebookToken,
+        url: ' https://www.omdbapi.com/?apikey=d5892be4&t=' + myFacebookToken,
 
         success: (response) => {
 
