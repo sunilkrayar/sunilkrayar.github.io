@@ -1,0 +1,101 @@
+:root{
+	font-size: 16px;
+}
+body{
+	margin-left:0.5vw;
+	margin-right: 0.5vw;
+	padding: 0vw;
+	background-color: rgb(150 150 100);
+	height: 99vh;
+	width: 99vw;
+	box-shadow: 1px 1px 10px 1px white;
+}
+h1{
+	text-align: center;
+	color:white;
+	font-size:2.5rem;
+	text-shadow: 2px 2px black;
+	font-weight: 300;
+	margin-top: 0vw;
+
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.btn{
+	display: flex;
+	justify-content: flex-end;
+	background-color: black;
+	 border:1px solid white;
+}
+.btn a{
+	text-decoration: none;
+	color:white;
+	font-size:1.5rem;
+     font-weight: 300;
+
+}
+ .btn:hover{
+	transform: scale(0.9);
+}
+.container{
+	margin-top:2vw;
+}
+#carouselExampleIndicators{
+	margin-top:0vw;
+       border-style:solid;
+        border-width: 0.5px 60px 0.5px 60px;
+        border-color:rgb(250 200 230);
+        border-radius:50px ;
+        box-shadow: 1px 1px 5px 1px white;
+  
+}
+
+
+
+@media screen and (max-width: 400px){
+   
+    .container{
+    	display: flex;
+    }
+    h1{
+    	display: flex;
+    	font-size: 1.5rem;
+    	text-align: center;
+    }
+    .footer{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 0.6rem;
+}
+
+         .btn a{
+         	display: flex;
+         	font-size: 0.8rem;
+         }
+         #carouselExampleIndicators{
+         	display: flex;
+         	margin-top: 10vw;
+         	height: 35vh;
+         	border-width: 0.5px 30px 0.5px 30px;
+        border-color:rgb(250 200 230);
+        border-radius:25px ;
+        box-shadow: 1px 1px 4px 1px white;
+         }
+}
+
+@media screen and (min-width: 401px) and (max-width: 650px){
+
+	  #carouselExampleIndicators{
+         	display: flex;
+         	margin-top: 10vw;
+         	height: 40vh;
+         	border-width: 0.5px 30px 0.5px 30px;
+        border-color:rgb(250 200 230);
+        border-radius:30px ;
+        box-shadow: 1px 1px 4px 1px white;
+         }
+}

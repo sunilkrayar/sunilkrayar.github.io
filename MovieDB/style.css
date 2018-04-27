@@ -1,0 +1,85 @@
+body {
+    word-break: break-all;
+    margin-left:0.5vw;
+    margin-right: 0.5vw;
+    padding: 0vw;
+    background-color: rgb(150 150 100);
+    height:195vh;
+    width:99vw;
+   
+
+}
+
+#dataSection {
+    display: none;
+}
+.userDetails{
+    border:2px solid #ddd;border-radius: 0.5em;
+}
+
+.coverHeight {
+    max-height:300px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.userName {
+    font-size: 3vw;
+}
+
+.profileHeight {
+    border: 0.2vw solid silver;
+    border-radius:2px;
+    box-shadow: 1px 1px 10px 1px white;
+}
+
+.rowStyle {
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em !important;
+}
+
+.rowStyle div {
+    padding: 1em;
+}
+
+.loader{
+    display: none;
+    border:16px dotted white;
+    border-top: 16px dotted blue;
+    border-bottom: 16px dotted red;
+    width: 140px;
+    height: 140px;
+    border-radius:100px;
+    animation: spin 1.5s linear infinite;
+    margin-left: 40vw;
+    margin-top: 10vw;
+}
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.button1{
+    margin-top: 1vw;
+    background-color: black;
+    font-size: 1.2rem;
+}
+.button2{
+    margin-top: 1vw;
+    background-color:black;
+    
+    font-size: 1.2rem;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
