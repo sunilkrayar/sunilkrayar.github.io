@@ -54,7 +54,9 @@ let getAllDetails = () => {
 
             $('#profilePhoto').html('<img src="' + response.Poster + '" class="img-fluid profileHeight"/ alt=" Sorry No Image">');
 
-            $('#cover').css(response.Poster);
+          
+            $('#cover').css('background-image', 'url(' + response.Poster + ')');
+
 
 
         }, error: (err) => {
@@ -65,9 +67,11 @@ let getAllDetails = () => {
         },
 
         beforeSend:()=>{
-                          $('#dataSection').show();
+                          $('.loader').show();
         },
         complete:()=>{
+        	$('#dataSection').show();
+        	$('.loader').hide();
             
         },
 
