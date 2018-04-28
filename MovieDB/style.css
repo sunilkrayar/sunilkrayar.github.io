@@ -47,9 +47,9 @@ body {
 
 .loader{
     display: none;
-    border:16px dotted white;
-    border-top: 16px dotted blue;
-    border-bottom: 16px dotted red;
+    border:16px solid green;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid red;
     width: 140px;
     height: 140px;
     border-radius:100px;
